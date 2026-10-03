@@ -14,7 +14,7 @@ const videoRouter = require("./routes/videoCreator")
 // console.log("Hello")
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+  origin: 'https://dev-nexus-frontend.vercel.app',
     credentials: true 
 }))
 
