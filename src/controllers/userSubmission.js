@@ -1,5 +1,5 @@
 const Problem = require("../models/problem");
-const Submission = require("../models/Submission");
+const Submission = require("../models/submission");
 const {getLanguageById,submitBatch,submitToken} = require("../utils/problemUtility");
 
 const submitCode = async(req,res)=>{

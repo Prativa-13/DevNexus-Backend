@@ -3,7 +3,7 @@ const User = require("../models/user")
 const validate = require('../utils/validator');
 const bcrypt = require("bcrypt");
 const jwt = require('jsonwebtoken');
-const Submission = require("../models/Submission");
+const Submission = require("../models/submission");
 
 const register = async (req,res)=>{
     try{
